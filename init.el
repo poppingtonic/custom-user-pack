@@ -27,7 +27,7 @@
 
 (package-initialize)
 
-(set-face-attribute 'default nil :height 80)
+(set-face-attribute 'default nil :height 77)
 (server-start)
 
 
@@ -41,7 +41,7 @@
 ;;(global-set-key (kbd "C-S-c C-|") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-x <up>") 'mc/mark-previous-like-this)
 ;(global-set-key (kbd "C-S-c C-S-w") 'mc/mark-previous-word-like-this)
-(global-set-key (kbd "<M-mouse-1>") 'mc/add-cursor-on-click)
+(global-set-key (kbd "<M-down-mouse-1>") 'mc/add-cursor-on-click)
 
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
